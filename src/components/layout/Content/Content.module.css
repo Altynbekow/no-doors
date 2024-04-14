@@ -1,0 +1,79 @@
+/*.flex{*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*}*/
+.inp {
+    width: 570px;
+    height: 40px;
+    border: 1.70px solid green;
+    padding: 12px 0 12px 10px;
+    /*margin-right: -1px;*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /*margin-top: 43px;*/
+    /*margin-bottom: 55px;*/
+    border-radius: 4px 0 0 4px;
+    /*margin-left: 65px;*/
+    margin: 43px -1px 55px 65px;
+}
+
+.btn {
+    border: 1.70px solid green;
+    background-color: green;
+    color: white;
+    width: 116px;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 43px;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.btn svg {
+    vertical-align: text-top;
+    margin-right: 10px;
+}
+
+.cart {
+    position: relative;
+    text-align: center;
+    margin-top: 43px;
+    margin-left: 20px;
+}
+
+.cart span {
+    position: absolute;
+    right: 0;
+    top: -9px;
+    left: 48px;
+    width: 23px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+.cart p{
+    font-family: Muller, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.heart span{
+    position: absolute;
+    right: 0;
+    top: -9px;
+    left: 40px;
+    width: 23px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}

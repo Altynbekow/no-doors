@@ -1,0 +1,30 @@
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0;
+}
+
+.headerBg *{
+    background: #f6f7fB;
+    font-size: 14px;
+}
+
+.flex2{
+    display: flex;
+    gap: 50px;
+}
+.flex2 select{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.flex2 p svg{
+    vertical-align: text-top;
+}
+.flex2 p {
+    font-weight: bold;
+    font-size: 14px;
+}
