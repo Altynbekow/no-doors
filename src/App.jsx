@@ -1,12 +1,14 @@
 import React from 'react';
 import Layout from "./components/layout/index.jsx";
 import {Routes, Route} from "react-router-dom"
+import Home from "./components/Home/Home.jsx";
 
 const App = () => {
     return (
         <div>
             <Routes>
                 <Route path="/" element={<Layout/>}>
+                    <Route  path="/" element={<Home/>}/>
                     <Route path='/company' element={<h1>Company Page</h1>}/>
                     <Route path='/delivery-and-payment' element={<h1>D and P Page</h1>}/>
                     <Route path='/guarantees' element={<h1>Guarantees Page</h1>}/>

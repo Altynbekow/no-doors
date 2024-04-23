@@ -11,12 +11,6 @@ const Content = () => {
         <div className="container">
             <div style={{display: 'flex'}}>
                 <img style={{marginLeft: 51}} src={Logo} alt=""/>
-                {/*<div >*/}
-                {/*<input className={cls.inp} type="text" placeholder="Введите поисковой запрос.."/>*/}
-                {/*<button className={cls.btn}><CiSearch/>*/}
-                {/*    Найти*/}
-                {/*</button>*/}
-                {/*</div>*/}
                 <div style={{display:"flex", position:"relative"}}>
                     <input className={cls.inp} type="text" placeholder="Введите поисковой запрос.."/>
                     <button className={cls.btn}><CiSearch/>Найти</button>

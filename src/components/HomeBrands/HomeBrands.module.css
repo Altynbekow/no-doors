@@ -1,0 +1,38 @@
+
+.heading {
+    font-family: Muller;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 3rem;
+}
+.flex {
+    display: flex;
+    gap: 20px;
+    margin-top: 2rem;
+}
+.card {
+    width: 255px;
+    height: 302px;
+    align-items: center;
+}
+.back {
+    width: 255px;
+    height: 255px;
+    background-color: #F6F7FB;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3rem;
+}
+.text {
+    text-align: center;
+    font-family: Muller,sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.img {
+    margin-top: -4.5rem;
+    margin-left: -4.3rem;
+}
