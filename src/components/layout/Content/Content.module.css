@@ -11,10 +11,8 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    /*margin-top: 43px;*/
-    /*margin-bottom: 55px;*/
+
     border-radius: 4px 0 0 4px;
-    /*margin-left: 65px;*/
     margin: 43px -1px 55px 65px;
 }
 

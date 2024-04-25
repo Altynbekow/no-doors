@@ -4,7 +4,6 @@ import Footer from "./Footer/index.jsx";
 import {Outlet} from "react-router-dom";
 import Content from "./Content/Content.jsx";
 import Brands from "../Brands/Brands.jsx";
-import HomeBrands from "../HomeBrands/HomeBrands.jsx";
 
 const Index = () => {
     return (
@@ -13,7 +12,6 @@ const Index = () => {
             <Content/>
             <Brands/>
             <Outlet/>
-            <HomeBrands/>
             <Footer/>
         </div>
     );
